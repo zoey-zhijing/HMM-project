@@ -16,7 +16,7 @@
 
 在传统HMM模型的基础上，加入不同心梗阶段的持续时长。
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\VDHMM模型.png)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/VDHMM%E6%A8%A1%E5%9E%8B.png)
 
 #### 观测空间定义
 
@@ -28,7 +28,7 @@
 
 #### 分词回归结果
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\分词回归.png)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E5%88%86%E8%AF%8D%E5%9B%9E%E5%BD%92.png)
 
 ### 离散时间隐马尔科夫模型与回归模型参数
 
@@ -42,31 +42,31 @@ $$ logit(P(Y_{ij}=1|s_{ij},Z_{ij}))=w_0+\sum\limits_{s=1}^N w_s \mathcal{I}(s_{i
 
 #### 极大似然估计方法
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\LR_benchmark.png)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/LR_benchmark.png)
 
 选择状态空间元素个数为4：
 
 回归模型结果：预测精度为71.64%
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\初始分布4.jpeg)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E5%88%9D%E5%A7%8B%E5%88%86%E5%B8%834.jpeg)
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\转移概率矩阵4.jpeg)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E8%BD%AC%E7%A7%BB%E6%A6%82%E7%8E%87%E7%9F%A9%E9%98%B54.jpeg)
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\输出概率矩阵4.jpeg)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E8%BE%93%E5%87%BA%E6%A6%82%E7%8E%87%E7%9F%A9%E9%98%B54.jpeg)
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\LR_4.png)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/LR_4.png)
 
 选择状态空间元素个数为3
 
 回归模型结果：预测精度为71.56%
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\LR_3.png)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/LR_3.png)
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\初始分布3.jpeg)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E5%88%9D%E5%A7%8B%E5%88%86%E5%B8%833.jpeg)
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\转移概率矩阵3.jpeg)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E8%BD%AC%E7%A7%BB%E6%A6%82%E7%8E%87%E7%9F%A9%E9%98%B53.jpeg)
 
-![image](C:\Users\Xinfei\Desktop\新建文件夹\HMM-project\figures\输出概率矩阵3.jpeg)
+![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E8%BE%93%E5%87%BA%E6%A6%82%E7%8E%87%E7%9F%A9%E9%98%B53.jpeg)
 
 ### 未来研究方向
 
