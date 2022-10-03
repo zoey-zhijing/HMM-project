@@ -25,6 +25,10 @@
  将8个分词描述作为自变量输入、诊断结果作为因变量输出，分为非急性心梗（陈旧性心梗）与急性心梗，建立Logistic回归模型。
 
  选择表现最好的“胸闷”“狭窄”“胸痛”三个分词作为观测空间。
+ 
+ ![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E5%BF%83%E6%A2%97%E7%B1%BB%E5%9E%8B.png)
+ ![image](https://github.com/zoey-zhijing/HMM-project/blob/main/figures/%E8%A7%82%E6%B5%8B%E7%A9%BA%E9%97%B4.png)
+
 
 #### 分词回归结果
 
